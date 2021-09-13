@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="quiz.css" rel="stylesheet" type="text/css">
+    <title>Quiz</title>
+</head>
+<body>
+    <nav class="navbar">
+        
+        <a style="font-weight: bold;" href="index.html">Quiz</a>
+        <a href="istriangle.html">Is Triangle ?</a>
+        <a href="hypotenuse.html">Hypotenuse</a>
+        <a href="areaoftriangle.html">Area of Triangle</a>
+        <h1>Fun with Triangles</h1>
+    </nav>
+    <div class="container">
+    <form class="quiz-form">
+        <h1>Quiz on Triangles 🔺</h1>
+        <h2>For each correct answer you will get 1 point</h2>
+        <div class="question-container">
+            <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label>
+                <input type="radio" name="questionone" value="45°"/>45°
+            </label>
+            <label>
+                <input type="radio" name="questionone" value="90°"/>90°
+            </label>
+            <label>
+                <input type="radio" name="questionone" value="60°"/>60°
+            </label>
+        </div>
+        <div class="question-container">
+            <p>2. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label>
+                <input type="radio" name="questiontwo" value="obtuse"/>obtuse
+            </label>
+            <label>
+                <input type="radio" name="questiontwo" value="acute"/>acute
+            </label>
+            <label>
+                <input type="radio" name="questiontwo" value="right angled"/>right angled
+            </label>
+        </div>
+        <div class="question-container">
+            <p>3. Which of the following triangles are always similar?</p>
+            <label>
+                <input type="radio" name="questionthree" value="isoceles triangle"/>Isoceles Triangle
+            </label>
+            <label>
+                <input type="radio" name="questionthree" value="equilaterial triangle"/>Equilaterial Triangle
+            </label>
+        </div>
+        <div class="question-container">
+            <p>4. A triangle can have</p>
+            <label>
+                <input type="radio" name="questionfour" value="one right angle"/>one right angle
+            </label>
+            <label>
+                <input type="radio" name="questionfour" value="two right angles"/>two right angles
+            </label>
+        </div>
+        
+    </form>
+    <button id="submitBtn">Submit</button>
+        <div id="output"></div>
+    </div>
+    <script src="quiz.js" type="text/javascript"></script>
+</body>
+</html>
